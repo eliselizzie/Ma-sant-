@@ -1,0 +1,43 @@
+{
+  "name": "Mon Programme Santé",
+  "short_name": "Ma Santé",
+  "description": "Programme perte de poids - Lipœdème - Jeûne intermittent 15h",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f2419",
+  "theme_color": "#0f2419",
+  "orientation": "portrait",
+  "lang": "fr",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Aujourd'hui",
+      "short_name": "Aujourd'hui",
+      "description": "Voir le programme du jour",
+      "url": "/index.html#today",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mes Courses",
+      "short_name": "Courses",
+      "description": "Liste de courses de la semaine",
+      "url": "/index.html#courses",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
